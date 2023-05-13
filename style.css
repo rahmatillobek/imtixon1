@@ -1,0 +1,55 @@
+*::after,
+*::before * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+}
+
+.conteiner2 {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: o 20px;
+}
+
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.header {
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 50px;
+}
+
+.nav .list {
+  display: flex;
+  column-gap: 40px;
+}
+
+.nav .item{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.header_btn{
+    background: #494949;
+    border-radius: 27px;
+    width: 160px;
+    height: 54px;
+    left: 1212px;
+    top: 40px;
+    color: #FFF;
+}
